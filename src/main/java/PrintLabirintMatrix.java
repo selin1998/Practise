@@ -3,9 +3,10 @@ import java.util.StringJoiner;
 public class PrintLabirintMatrix {
 
     public static String dataOrdered(int R, int C, int[][] m) {
+        int mult=R*C;
         StringJoiner sj=new StringJoiner(" ");
         int row=0,col=0;int left=0,right=C-1,up=0,down=R; int counter=0;
-        for (int i = 0; i < R*C; i++) {
+        for (int i = 0; i < mult; i++) {
 
             sj.add(String.valueOf(m[row][col]));
 
@@ -17,12 +18,14 @@ public class PrintLabirintMatrix {
                 if(row==up){
                     sj.add(String.valueOf(m[row][col]));
                     down=down-1;
+
                 }
                 row++;
             }
             if(row==down){
                 if(col==right){
                     sj.add(String.valueOf(m[row][col]));
+
                 }
                 col--;
             }
@@ -31,6 +34,7 @@ public class PrintLabirintMatrix {
                     sj.add(String.valueOf(m[row][col]));
                     up=up+1;
                     right=right-1;
+                    counter++;
                 }
                 row--;
 

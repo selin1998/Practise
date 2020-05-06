@@ -1,5 +1,6 @@
 import java.util.Arrays;
-import java.util.stream.IntStream;
+import java.util.stream.Collectors;
+
 
 public class LeftRotation {
 
@@ -16,8 +17,15 @@ public class LeftRotation {
 
 
     public static void main(String[] args) {
-        System.out.println(rotLeft(new int[]{1, 7, 4, 2, 3}, 4));
-        System.out.println(rotLeft(new int[]{1, 2,3,4,5}, 4));
+        int[] a={1, 7, 4, 2, 3};
+        int [] b=new int[a.length];
+        int d=2;
+        for (int i = 0; i < a.length; i++) {
+            b[i]=a[(i+d)%a.length];
+        }
+        String rotatedArray = Arrays.stream(b).mapToObj(i -> String.valueOf(i)).collect(Collectors.joining(" "));
+        System.out.println(rotatedArray);
+        System.out.println(Arrays.toString(b));
 
     }
 }

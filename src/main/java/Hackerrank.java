@@ -26,6 +26,7 @@ public class Hackerrank {
         System.out.println(hackerrankInString("hhhackkerbanker"));
         System.out.println(hackerrankInString("hhhhaaaaackkkkerrrrrrrrankop"));
         System.out.println(hackerrankInString2("hacakaeararanaka"));
+
     }
 }
 //".*h.*a.*c.*k.*e.*r.*r.*a.*n.*k.*"
