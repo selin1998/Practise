@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -24,6 +25,7 @@ public class Main {
         char[] chars1 = str.toCharArray();
 
 
-
+        List<Character> characters = new Random().ints(65, 122).limit(30).mapToObj(i -> (char) i).collect(Collectors.toList());
+        System.out.println(characters);
     }
 }

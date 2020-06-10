@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd00e340-a8d9-4dac-b81e-001a45797cb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Algorithms_Practise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MakingAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TimeConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlternatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlternatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CountTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpecialStringAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpecialStringAgain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValidString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidString.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c9mH3LaapFialvccS6YQTzHPs9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589781428730" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/WEB" />
+      <recent name="$PROJECT_DIR$/content" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="warmup.Application" />
+      <module name="Algorithms_Practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="warmup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FairRations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FairRations" />
+      <module name="Algorithms_Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort1" />
+      <module name="Algorithms_Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort2" />
+      <module name="Algorithms_Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewYearChaos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewYearChaos" />
+      <module name="Algorithms_Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.NewYearChaos" />
+        <item itemvalue="Application.FairRations" />
+        <item itemvalue="Application.InsertionSort2" />
+        <item itemvalue="Application.InsertionSort1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd00e340-a8d9-4dac-b81e-001a45797cb0" name="Default Changelist" comment="" />
+      <created>1585633365178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585633365178</updated>
+      <workItem from="1585633390204" duration="19592000" />
+      <workItem from="1585746697839" duration="58000" />
+      <workItem from="1585748559557" duration="9252000" />
+      <workItem from="1586010331616" duration="25766000" />
+      <workItem from="1586097031481" duration="112000" />
+      <workItem from="1586097157580" duration="205000" />
+      <workItem from="1586097430904" duration="7791000" />
+      <workItem from="1586160804230" duration="25530000" />
+      <workItem from="1586409804367" duration="5097000" />
+      <workItem from="1586427124862" duration="126000" />
+      <workItem from="1586463909268" duration="5185000" />
+      <workItem from="1586751612588" duration="4916000" />
+      <workItem from="1586779650463" duration="34830000" />
+      <workItem from="1586961540574" duration="28760000" />
+      <workItem from="1587092859495" duration="7694000" />
+      <workItem from="1587122803811" duration="25875000" />
+      <workItem from="1587355238865" duration="4032000" />
+      <workItem from="1587447998152" duration="3000" />
+      <workItem from="1587528093466" duration="5078000" />
+      <workItem from="1587550537133" duration="559000" />
+      <workItem from="1546301095480" duration="7509000" />
+      <workItem from="1587740671991" duration="7529000" />
+      <workItem from="1587794908165" duration="10847000" />
+      <workItem from="1587966279189" duration="223000" />
+      <workItem from="1587984196151" duration="12312000" />
+      <workItem from="1546301027306" duration="4685000" />
+      <workItem from="1588144152332" duration="34238000" />
+      <workItem from="1588324584784" duration="14918000" />
+      <workItem from="1588566791871" duration="1489000" />
+      <workItem from="1588580410799" duration="11871000" />
+      <workItem from="1588618180999" duration="131000" />
+      <workItem from="1588652951795" duration="480000" />
+      <workItem from="1588662597742" duration="343000" />
+      <workItem from="1588690266358" duration="4294000" />
+      <workItem from="1588768595989" duration="1883000" />
+      <workItem from="1588777112624" duration="12503000" />
+      <workItem from="1588921424966" duration="846000" />
+      <workItem from="1588960801134" duration="7701000" />
+      <workItem from="1589007534761" duration="14550000" />
+      <workItem from="1589125386455" duration="599000" />
+      <workItem from="1589170683308" duration="2780000" />
+      <workItem from="1589175575000" duration="31000" />
+      <workItem from="1589343745749" duration="2371000" />
+      <workItem from="1589468967129" duration="5591000" />
+      <workItem from="1589638302380" duration="7358000" />
+      <workItem from="1589688316461" duration="504000" />
+      <workItem from="1589692998810" duration="13531000" />
+      <workItem from="1589949102696" duration="1981000" />
+      <workItem from="1590064201124" duration="15408000" />
+      <workItem from="1590240068488" duration="24500000" />
+      <workItem from="1590378430614" duration="1230000" />
+      <workItem from="1590471497775" duration="8855000" />
+      <workItem from="1590647241915" duration="14202000" />
+      <workItem from="1590985634229" duration="315000" />
+      <workItem from="1591014579696" duration="459000" />
+      <workItem from="1591158822415" duration="1435000" />
+      <workItem from="1591327059085" duration="4243000" />
+      <workItem from="1591445450727" duration="9886000" />
+      <workItem from="1591759347676" duration="4990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1591764462305">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591764462305" />
+    <state x="533" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1440.784@0.23.1440.784" timestamp="1590645522729" />
+    <state x="468" y="311" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590322461052">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="468" y="311" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1590322461052" />
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom" timestamp="1591764736290">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591764736290" />
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.23.1440.784@0.23.1440.784" timestamp="1590657726353" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1590732992033" />
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1590554859224" />
+    <state width="1398" height="299" key="GridCell.Tab.0.center" timestamp="1591764736288">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591764736288" />
+    <state width="1398" height="182" key="GridCell.Tab.0.center/0.23.1440.784@0.23.1440.784" timestamp="1590657726351" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1590732992030" />
+    <state width="1398" height="182" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1590554859222" />
+    <state width="1398" height="299" key="GridCell.Tab.0.left" timestamp="1591764736287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591764736287" />
+    <state width="1398" height="182" key="GridCell.Tab.0.left/0.23.1440.784@0.23.1440.784" timestamp="1590657726350" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1590732992022" />
+    <state width="1398" height="182" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1590554859219" />
+    <state width="1398" height="299" key="GridCell.Tab.0.right" timestamp="1591764736289">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591764736289" />
+    <state width="1398" height="182" key="GridCell.Tab.0.right/0.23.1440.784@0.23.1440.784" timestamp="1590657726352" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1590732992032" />
+    <state width="1398" height="182" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1590554859223" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6.0_65-b14</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithms_Practise</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6.0_65-b14</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

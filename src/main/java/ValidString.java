@@ -8,28 +8,18 @@ import java.util.stream.Collectors;
 public class ValidString {
 
     static String isValid(String s) {
-        HashMap<Character,Integer> occur=new HashMap<>();
 
+        Map<Character, Long> frequency = s.codePoints().mapToObj(c -> (char) c)
+                .collect(Collectors.groupingBy(i -> i, Collectors.counting()));
 
-        for (int i = 0; i < s.length(); i++) {
-            char c=s.charAt(i);
-            if(occur.get(c)!=null){
-                occur.put(c,occur.get(c)+1);
-            }
-            else occur.put(c,1);
-        }
-
-
-        Map<Integer, Long> collect = occur.values().stream().collect(Collectors.groupingBy(i -> i,
+        Map<Long, Long> frequencyofValues = frequency.values().stream()
+                .collect(Collectors.groupingBy(i -> i,
                 Collectors.counting()
         ));
-
-        System.out.println(collect);
-        System.out.println(collect.size());
-        if(collect.size()==1 || collect.size()==0){
+        if(frequencyofValues.size()==1 || frequencyofValues.size()==0){
             return "YES";
         }
-       else if(collect.size()==2 && Collections.max(collect.keySet())-Collections.min(collect.keySet())==1 && collect.values().contains((long)1)  ){
+       else if(frequencyofValues.size()==2 && Collections.max(frequencyofValues.keySet())-Collections.min(frequencyofValues.keySet())==1 && frequencyofValues.values().contains((long)1)  ){
           return "YES";
         }
         else {
