@@ -24,7 +24,7 @@ class Rectangles {
   }
 
   long area() {
-    return  rectangles.stream().map(r -> r.area()).collect(Collectors.summingLong(Integer::intValue));
+    return  rectangles.stream().flatMap(r->r.points().stream()).distinct().count();
 
   }
 

@@ -1,7 +1,8 @@
 package warmup;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Rectangle {
   private final Point p1;
@@ -17,6 +18,19 @@ class Rectangle {
   }
   public int area() {
     return Math.abs(p1.x() - p2.x()) * Math.abs(p1.y() - p2.y());
+  }
+
+
+  private List<Integer> horizontal() {
+    return IntStream.rangeClosed(Math.min(p1.x(), p2.x()), Math.max(p1.x(), p2.x())).boxed().collect(Collectors.toList());
+  }
+
+  private List<Integer> vertical() {
+    return IntStream.rangeClosed(Math.min(p1.y(), p2.y()), Math.max(p1.y(), p2.y())).boxed().collect(Collectors.toList());
+  }
+
+  List<Point> points() {
+    return horizontal().stream().flatMap(x -> vertical().stream().map(y -> new Point(x, y))).collect(Collectors.toList());
   }
 
   @Override
