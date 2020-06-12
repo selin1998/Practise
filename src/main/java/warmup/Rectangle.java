@@ -16,9 +16,10 @@ class Rectangle {
     this.p1 = p1;
     this.p2 = p2;
   }
-  public int area() {
-    return Math.abs(p1.x() - p2.x()) * Math.abs(p1.y() - p2.y());
-  }
+
+//  public int area() {
+//    return Math.abs(p1.x() - p2.x()) * Math.abs(p1.y() - p2.y());
+//  }
 
 
   private List<Integer> horizontal() {
@@ -30,7 +31,20 @@ class Rectangle {
   }
 
   List<Point> points() {
+    // collects all points on the rectangle area created by two lines defined above
+    /*
+
+        * -> p1 and p2   # -> horizontal and vertical lines  _ -> area not including lines,p1 and p2
+
+        #_______*
+        #________
+        #________
+        #________
+        *########
+
+     */
     return horizontal().stream().flatMap(x -> vertical().stream().map(y -> new Point(x, y))).collect(Collectors.toList());
+
   }
 
   @Override
